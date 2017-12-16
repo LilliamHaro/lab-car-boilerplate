@@ -5,13 +5,19 @@
   padding: 0;
 }
 .fl-left {
-  margin-left: 15px;
   float: left;
 }
-
+.pd-lf {
+  padding-left: 15px;
+}
 .logo{
   width: 147px;
   margin: 0 auto 10px;
+}
+.mg-btm {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  border-width: 0 0 1px;
 }
 .bg-taxi {
   height:100vh;
@@ -22,14 +28,9 @@
   display: flex;
   align-items:center;
   justify-content:flex-end;
-
-}
-.mg-btm {
-  margin-bottom: 0;
 }
 .yellow-box {
   height: 35vh;
-  width: 80%;
   background-color: gold;
   padding: 20px 0 0 30px;
   color: #fff;
@@ -39,4 +40,38 @@
 }
 .logo-blanco {
   height: 17px;
+}
+.iphone {
+  height: 90vh;
+  background-color: gold;
+  padding-top: 3vh;
+}
+.borde {
+  border: 2px solid #fff;
+  height: 75vh;
+  margin-bottom: 30px;
+}
+.text-wh-cntr {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.iphone h3 {
+  margin: 18% 0 40px;
+}
+.conduce {
+  height:100vh;
+  background-image: url("../assets/images/conduce.jpg");
+  background-position:center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  /*-webkit-filter: grayscale(50%);*/
+      /*filter: grayscale(50%);*/
+      /*background-color: rgba(0, 0, 0, 0.62);*/
+}
+.conduce-text {
+
+  padding: 45px;
+background-color: rgba(0, 0, 0, 0.62);
 }
