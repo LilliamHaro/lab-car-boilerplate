@@ -7,8 +7,20 @@
 .fl-left {
   float: left;
 }
-.pd-lf {
+.pd-lf-15 {
   padding-left: 15px;
+}
+.pd-rg-0 {
+  padding-right: 0;
+}
+.pd-lf-0 {
+  padding-left: 0;
+}
+.bg {
+  height: 90vh;
+  background-position:center center;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 .logo{
   width: 147px;
@@ -20,17 +32,13 @@
   border-width: 0 0 1px;
 }
 .bg-taxi {
-  height:100vh;
   background-image: url("../assets/images/taxi.jpg");
-  background-position:center center;
-  background-size:cover;
-  background-repeat: no-repeat;
   display: flex;
   align-items:center;
   justify-content:flex-end;
 }
 .yellow-box {
-  height: 35vh;
+  height: 40vh;
   background-color: gold;
   padding: 20px 0 0 30px;
   color: #fff;
@@ -51,27 +59,27 @@
   height: 75vh;
   margin-bottom: 30px;
 }
-.text-wh-cntr {
+.text-wh {
   color: #fff;
-  text-align: center;
   font-weight: bold;
 }
-
 .iphone h3 {
   margin: 18% 0 40px;
 }
 .conduce {
-  height:100vh;
   background-image: url("../assets/images/conduce.jpg");
-  background-position:center center;
+  color: white;
   background-size:cover;
-  background-repeat: no-repeat;
-  /*-webkit-filter: grayscale(50%);*/
-      /*filter: grayscale(50%);*/
-      /*background-color: rgba(0, 0, 0, 0.62);*/
 }
 .conduce-text {
-
   padding: 45px;
-background-color: rgba(0, 0, 0, 0.62);
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+.mrg-bt-25 {
+  margin-bottom: 25px;
+}
+
+.bg-gold {
+  background-color: gold;
 }
