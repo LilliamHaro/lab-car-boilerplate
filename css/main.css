@@ -17,7 +17,6 @@
   padding-left: 0;
 }
 .bg {
-  height: 90vh;
   background-position:center center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -32,6 +31,7 @@
   border-width: 0 0 1px;
 }
 .bg-taxi {
+  height: 90vh;
   background-image: url("../assets/images/taxi.jpg");
   display: flex;
   align-items:center;
@@ -39,7 +39,6 @@
 }
 .yellow-box {
   height: 40vh;
-  background-color: gold;
   padding: 20px 0 0 30px;
   color: #fff;
 }
@@ -50,9 +49,8 @@
   height: 17px;
 }
 .iphone {
-  height: 90vh;
-  background-color: gold;
-  padding-top: 3vh;
+  height: 100vh;
+  padding-top: 5vh;
 }
 .borde {
   border: 2px solid #fff;
@@ -79,7 +77,34 @@
 .mrg-bt-25 {
   margin-bottom: 25px;
 }
+.mrg-top-30 {
+  margin-top: 30px;
+}
 
 .bg-gold {
   background-color: gold;
+}
+.input {
+  height: 30px;
+  width: 80%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin: 15px;
+  outline: none;
+}
+.pd-45 {
+  padding: 45px;
+}
+.footer {
+  background-color: #000;
+}
+.line-h-25 {
+  line-height: 45px;
+}
+.pd-top-10 {
+  padding-top: 10px;
+}
+.fz {
+  font-size: 25px;
 }
