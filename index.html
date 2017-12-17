@@ -19,10 +19,11 @@
       <!-- nav -->
       <!-- clase para fijar el nav (navbar-fixed-top) -->
     <nav class="navbar navbar-default mg-btm ">
-    <div class="container-fluid">
+    <div class="container-fluid pd-md">
+      <span class="none-xs"href="#"> <img class="logo" src="assets/images/logoForma.png" alt=""> </span>
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header pd-lf-15">
-        <button type="button" class="navbar-toggle collapsed fl-left " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed fl-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -31,7 +32,7 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse fl-rg" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li><a href="#">Viaja</a></li>
           <li><a href="#">Conduce</a></li>
@@ -39,16 +40,27 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-      <div class="logo" href="#"> <img src="assets/images/logoForma.png" alt=""> </div>
+      <div class="logo none" href="#"> <img src="assets/images/logoForma.png" alt=""> </div>
   </nav>
 
 
 <main class="container-fluid">
   <div class="row">
     <div class="col-xs-12 bg-taxi bg pd-rg-0">
-      <div class="col-xs-10 yellow-box bg-gold ">
-        <h2>Comienza a viajar <br> con <span> <img class="logo-blanco"src="assets/images/logoBlanco.png" alt=""> </span></h2>
-        <button type="button" class="btn btn-default btn-lg">Descarga el App</button>
+      <div class="col-xs-10 col-md-5 yellow-box bg-gold ">
+
+        <h2 class="none">Comienza a viajar <br> con <span> <img class="logo-blanco"src="assets/images/logoBlanco.png" alt=""> </span></h2>
+        <button type="button" class="btn btn-default btn-lg none">Descarga el App</button>
+
+        <div class="none-xs">
+          <h2>Disfruta del viaje <br> Eres el dueño de tu tiempo </h2>
+          <h4 class="mrg-bt-25">Viaja con <span> <img class="logo-blanco"src="assets/images/logoBlanco.png" alt=""> </span></h4>
+          <button type="button" class="btn btn-default btn-lg">Registrate</button>
+          <hr>
+          <div class="line">O bien</div>
+          <button type="button" class="btn btn-default btn-lg">Conviertete en un conductor</button>
+        </div>
+
       </div>
     </div>
   </div>
@@ -57,18 +69,24 @@
 
   <div class="row">
     <div class="iphone bg-gold ">
-      <div class="col-xs-offset-1 col-xs-10 borde">
-        <h3 class="text-wh text-center">La nueva app</h3>
-        <img class="col-xs-12" src="assets/images/iPhone6Plus.png" alt="">
+
+      <div class=" col-xs-10  borde">
+        <h3 class="text-wh text-center none">La nueva app</h3>
+        <img class="col-xs-12 col-md-4 " src="assets/images/iPhone6Plus.png" alt="">
+        <div class="iphone-text col-md-offset-1 col-md-6  none-xs">
+          <h2>Descarga la nueva App</h2>
+          <p>La versión actualizada de LabCar esta llena de nuevas funciones para legar a dónde quieras aú más facil y rápido. <br> <br>
+          Con solo tocar un boton, un auto llega justo a tu ubicación. Subete y no te preocupes tu conductor sabe esaxtamente a dónde ir. </p>
+        </div>
       </div>
-      <h4 class="text-wh text-center">Llega a tu desino aún más rápido</h4>
+      <h4 class="text-wh text-center none">Llega a tu desino aún más rápido</h4>
     </div>
   </div>
 
 
 <div class="row">
   <div class="col-xs-12 conduce pd-rg-0 pd-lf-0">
-    <div class="conduce-text">
+    <div class="conduce-text col-md-4 fl-rg">
       <h3 class="text-wh">Conduce cuando quieras</h3>
       <p class="mrg-bt-25">LabCar es una opcion flexible para alcanzar tus metas financieras</p>
       <button type="button" class="btn btn-lg bg-gold text-wh">Conviertete en conductor</button>
@@ -78,39 +96,56 @@
 
 <div class="row">
   <div class="col-xs-12 bg bg-gold pd-45">
-    <h2>Tarifas</h2>
-    <p>Consulta las tarifas LabCar aquí</p>
-    <div>
-      <img src="assets/images/shape.png" alt="">
-      <input class="input" type="text" name="" value="">
+    <div class="col-md-offset-1 col-md-5">
+      <h2>Tarifas</h2>
+      <p>Consulta las tarifas LabCar aquí</p>
+      <div>
+        <img src="assets/images/shape.png" alt="">
+        <input class="input" type="text" name="" value="">
+      </div>
+      <div>
+        <img src="assets/images/shape2.png" alt="">
+        <input class="input" type="text" name="" value="">
+      </div>
+      <button type="button" class="btn btn-lg mrg-top-30 mrg-bt-25 col-xs-12 col-md-offset-1 col-md-4"><strong>Trazar una Ruta</strong></button>
     </div>
-    <div>
-      <img src="assets/images/shape2.png" alt="">
-      <input class="input" type="text" name="" value="">
-    </div>
-    <button type="button" class="btn btn-lg mrg-top-30 mrg-bt-25"><strong>Conviertete en conductor</strong></button>
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.896188131313!2d-77.03709328563495!3d-12.119254991418998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad1800415d%3A0x75a39531fec524aa!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1513488885283" width="270" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="container col-md-6 map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.896188131313!2d-77.03709328563495!3d-12.119254991418998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad1800415d%3A0x75a39531fec524aa!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1513488885283" class="col-xs-12 col-md-11" height="100%" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>
 </main>
 
-<footer class="container-fluid footer text-wh">
+<footer class="container-fluid footer text-wh pd-45">
+  <img src="assets/images/logoBlanco.png" class="none-xs" alt="">
     <hr>
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-xs-6 none">
         <p class="line-h-25 pd-lf-15">Viaja <br> Conduce <br> Ciudades <br> Entregas <br> Como funciona? <br> Paises <br> Seguridad </p>
       </div>
-      <div class="col-xs-6">
+
+      <div class="col-xs-6 col-md-3 shape">
         <p class="pd-top-10 fz">
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-linkedin" aria-hidden="true"></i>
           <i class="fa fa-apple" aria-hidden="true"></i>
           <i class="fa fa-youtube" aria-hidden="true"></i>
+        </p>
+        <img class="col-xs-10 mrg-top-30 mrg-bt-25 pd-lf-0 none" src="assets/images/appstore.png" alt="">
+        <img class="col-xs-10 pd-lf-0 none" src="assets/images/enBadgeWebGeneric.png" alt="">
 
-        <img class="col-xs-10 mrg-top-30 mrg-bt-25 pd-lf-0" src="assets/images/appstore.png" alt="">
-        <img class="col-xs-10 pd-lf-0" src="assets/images/enBadgeWebGeneric.png" alt="">
+      </div>
+      <div class="col-xs-6 col-md-3 none-xs">
+        <p class="line-h-25 pd-lf-15">Viaja <br> Conduce <br> Ciudades <br> Entregas <br> Como funciona? <br> Paises <br> Seguridad </p>
+      </div>
+      <div class="col-md-3 none-xs">
+        <p class="line-h-25 pd-lf-15">Viaja <br> Conduce <br> Ciudades <br> Entregas <br> Como funciona? <br> Paises <br> Seguridad </p>
+      </div>
+      <div class="col-md-3 none-xs shape">
+        <div>
+          <img class="mrg-top-30 mrg-bt-25 pd-lf-0 " src="assets/images/appstore.png" alt="">
+          <img class=" pd-lf-0 " src="assets/images/enBadgeWebGeneric.png" alt="">
+        </div>
 
       </div>
 
