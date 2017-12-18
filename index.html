@@ -55,15 +55,126 @@
         <div class="none-xs">
           <h2>Disfruta del viaje <br> Eres el dueño de tu tiempo </h2>
           <h4 class="mrg-bt-25">Viaja con <span> <img class="logo-blanco"src="assets/images/logoBlanco.png" alt=""> </span></h4>
-          <button type="button" class="btn btn-default btn-lg">Registrate</button>
+          <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModalReg">Registrate</button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModalReg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content heigth-modal bg-gray">
+                <div class="modal-header border">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+
+                  <form>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button type="submit" class="btn btn-default col-md-12 form-group account-button">Ya tienes una cuenta?</button>
+                        <p class="text-center">O CREA UNA CUENTA NUEVA</p>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electrónico Ejemplo@hotmail.com">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Telefono">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ciudad">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Opcional (codigo de invitación)">
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-md-12">
+                        <select class="form-control btn-default ">
+                          <option >Como te enteraste de nosotros</option>
+                          <option>Radio</option>
+                          <option>TV</option>
+                          <option>Internet</option>
+                        </select>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="submit" class="btn btn-default col-md-12 bg-skb">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <hr>
           <div class="line">O bien</div>
-          <button type="button" class="btn btn-default btn-lg">Conviertete en un conductor</button>
-        </div>
+            <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Conviertete en un conductor</button>
 
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content bg-green">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <div class="container user-image mrg-top-30">
+
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <form class=" container form">
+
+                    <div class="form-group ">
+                      <div class="input-group">
+                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+                          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="input-group">
+                      <span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                      <div class="col-sm-offset-4 col-sm-8">
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                      </div>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-10 mrg-top-30">
+                      Forgor your password? <a href="#">Click Here</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
+
+
+
+<!--
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Launch demo modal
+  </button> -->
+
+
+
+
 
 
 
@@ -89,7 +200,67 @@
     <div class="conduce-text col-md-4 fl-rg">
       <h3 class="text-wh">Conduce cuando quieras</h3>
       <p class="mrg-bt-25">LabCar es una opcion flexible para alcanzar tus metas financieras</p>
-      <button type="button" class="btn btn-lg bg-gold text-wh">Conviertete en conductor</button>
+      <button type="button" class="btn btn-lg bg-gold text-wh" data-toggle="modal" data-target="#myModalConductor">Conviertete en conductor</button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModalConductor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content bg-gray">
+            <div class="modal-header border">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <form class="container form">
+                <div class="row">
+                  <div class="form-group col-md-12">
+                    <label for=""> <strong class="black">¿Tienes vehículo de 4 puertas?</strong> </label>
+                    <select class="form-control btn-default ">
+                      <option >Sí</option>
+                      <option>No</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for=""> <strong class="black">Marca</strong> </label>
+                    <select class="form-control btn-default ">
+                      <option >Elige la marca del vehiculo</option>
+                      <option>Nssan</option>
+                      <option>Toyota</option>
+                      <option>Picanto</option>
+                    </select>
+                    <p>¿no ves tu vehículo en la lista? Envía un correo electrónico a <span class="skb">sociosmdv@gmail.com</span></p>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for=""> <strong class="black">Modelo</strong> </label>
+                    <select class="form-control btn-default ">
+                      <option >Modelo 1</option>
+                      <option>Modelo 2</option>
+                      <option>Modelo 3</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for=""> <strong class="black">Año</strong> </label>
+                    <select class="form-control btn-default ">
+                      <option >2017</option>
+                      <option>20016</option>
+                      <option>2017</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label for=""> <strong class="black">Número de la matricula</strong> </label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Número de la matricula">
+                    <p>La información de la matrícula ayuda a los clientes a dentificar tu vehiculo</p>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-default col-md-12 bg-skb">Enviar</button>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+            <div class="modal-body">
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -109,7 +280,7 @@
       </div>
       <button type="button" class="btn btn-lg mrg-top-30 mrg-bt-25 col-xs-12 col-md-offset-1 col-md-4"><strong>Trazar una Ruta</strong></button>
     </div>
-    <div class="container col-md-6 map">
+    <div class="container col-md-6 map ">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.896188131313!2d-77.03709328563495!3d-12.119254991418998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad1800415d%3A0x75a39531fec524aa!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1513488885283" class="col-xs-12 col-md-11" height="100%" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>

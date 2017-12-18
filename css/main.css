@@ -176,6 +176,45 @@
   display: flex;
   align-items:flex-end;
   justify-content:flex-start;
-
+}
+.black {
+  color: #000;
+}
+.user-image {
+  width: 300px;
+  height: 200px;
+  background-color: #0080FF;
+  border-radius: 5px;
+}
+.bg-green {
+  background-color: #01DFA5;
+}
+.bg-gray {
+  background-color: gray;
+}
+.form {
+  width: 400px;
+}
+.heigth-modal {
+  height: 550px;
+}
+.account-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+.bg-skb {
+  background-color:#0080FF;
+  border: none;
+  color: #fff;
+}
+.border {
+  border-bottom: none;
+}
+.black {
+  color: #000;
+}
+.skb {
+  color: #0B3861;
 }
 }
