@@ -105,7 +105,7 @@
   font-size: 20px;
 }
 .bg-gold {
-  background-color: gold;
+  background-color: #ffc107;
 }
 .bg {
   background-position:center center;
@@ -147,7 +147,7 @@
   /* posicionando sobre el hr */
   position: relative;
   top: -30px;
-  background-color: gold;
+  background-color: #ffc107;
 }
 .iphone {
   height: 86vh;
