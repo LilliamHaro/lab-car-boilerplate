@@ -16,6 +16,8 @@
 .bg-taxi {
   height: 90vh;
   background-image: url("../assets/images/taxi.jpg");
+  background-position: center bottom;
+  background-size: cover;
   display: flex;
   align-items:center;
   justify-content:flex-end;
@@ -50,7 +52,7 @@
 }
 .conduce {
   background-image: url("../assets/images/conduce.jpg");
-  color: white;
+  color: black;
   background-size:cover;
 }
 .conduce-text {
