@@ -22,6 +22,12 @@
   align-items:center;
   justify-content:flex-end;
 }
+.fs-17 {
+  font-size: 14px;
+}
+.heigth-200 {
+  height: 200px;
+}
 .yellow-box {
   height: 40vh;
   padding: 20px 0 0 30px;

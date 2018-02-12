@@ -66,26 +66,26 @@
              <p class="text-center">O CREA UNA CUENTA NUEVA</p>
             </div>
             <div class="form-group col-md-6">
-             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+             <input type="email" class="form-control" placeholder="Nombre">
             </div>
             <div class="form-group col-md-6">
-             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Apellido">
+             <input type="email" class="form-control"  placeholder="Apellido">
             </div>
             </div>
             <div class="form-group">
-             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electrónico Ejemplo@hotmail.com">
+             <input type="email" class="form-control"  placeholder="Correo Electrónico Ejemplo@hotmail.com">
             </div>
             <div class="form-group">
-             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Telefono">
+             <input type="password" class="form-control"  placeholder="Telefono">
             </div>
             <div class="form-group">
-             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Contraseña">
+             <input type="email" class="form-control"  placeholder="Contraseña">
             </div>
             <div class="form-group">
-             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ciudad">
+             <input type="password" class="form-control"  placeholder="Ciudad">
             </div>
             <div class="form-group">
-             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Opcional (codigo de invitación)">
+             <input type="email" class="form-control" placeholder="Opcional (codigo de invitación)">
             </div>
             <div class="row">
              <div class="form-group col-md-12">
@@ -121,13 +121,13 @@
           <form class=" container form">
            <div class="form-group ">
             <div class="input-group">
-             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+             <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
              <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
             </div>
            </div>
            <div class="form-group">
             <div class="input-group">
-             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i></span>
+             <span class="input-group-addon"><i class="fa fa-lock" aria-hidden="true"></i></span>
              <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
             </div>
            </div>
@@ -213,7 +213,7 @@
             </div>
             <div class="form-group col-md-12">
              <label for=""> <strong class="black">Número de la matricula</strong> </label>
-             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Número de la matricula">
+             <input type="password" class="form-control" placeholder="Número de la matricula">
              <p>La información de la matrícula ayuda a los clientes a dentificar tu vehiculo</p>
             </div>
             <div class="col-md-12">
@@ -230,22 +230,22 @@
    </div>
   </div>
   <div class="row">
- <div class="col-xs-12 bg bg-gold pd-45">
+   <div class="col-xs-12 bg bg-gold pd-45">
   <div class="col-md-offset-1 col-md-5">
    <h2>Tarifas</h2>
    <p>Consulta las tarifas LabCar aquí</p>
    <div>
     <img src="assets/images/shape.png" alt="">
-    <input class="input" type="text" name="" value="">
+    <input id="originPoint" class="input" type="text" name="" value="">
    </div>
    <div>
     <img src="assets/images/shape2.png" alt="">
-    <input class="input" type="text" name="" value="">
+    <input id="destinyPoint" class="input" type="text" name="" value="">
    </div>
-   <button type="button" class="btn btn-lg mrg-top-30 mrg-bt-25 col-xs-12 col-md-offset-1 col-md-4"><strong>Trazar una Ruta</strong></button>
+   <button id="btn" type="button" class="btn btn-lg mrg-top-30 mrg-bt-25 col-xs-12 col-md-offset-1 col-md-6"><strong>Trazar una Ruta</strong></button>
+   <button id="myPosition" class="fs-17 btn btn-lg mrg-top-30 mrg-bt-25 col-xs-12 col-md-offset-1 col-md-6" type="button" name="button">Ubicarme en el mapa</button>
   </div>
-  <div class="container col-md-6 map ">
-   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.896188131313!2d-77.03709328563495!3d-12.119254991418998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9ad1800415d%3A0x75a39531fec524aa!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1513488885283" class="col-xs-12 col-md-11" height="100%" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <div id="map" class="container col-md-6 map heigth-200 ">
   </div>
  </div>
  </main>
@@ -286,6 +286,8 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbjBpCZgh0fA8DvIo_pUlPIlX6QKKup1g&libraries=places&callback=initMap">
+       </script>
+  <script type="text/javascript" src="js/app.js"></script>
  </body>
 </html>
