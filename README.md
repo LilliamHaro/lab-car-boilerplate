@@ -19,12 +19,7 @@ Usando los recursos de bootstrap, la api de html5 y google maps api logramos rep
 	Esta herramienta se uso con la finalidad de darlea la aplicación el comportamiento de escritura anticipada para simplicar el trabajo del usuario y evitar errorer de escrituras
 
 	![Recursos](assets/images/autocompletado.png)
-
-	- Trazado de rutas
-
-	El trazado de ruta se uso una key única dentro de un script ubicado dentro del html en el cual se esta integrando como callback a la funcion de inicio para el trazado(callback=initMap) y la libreria de autocompletado de google maps. Este sería el resultado en el mapa.
-
-	![Recursos](assets/images/trazado.png)
+	
 
 **RESULTADO FINAL**
 
