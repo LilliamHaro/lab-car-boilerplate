@@ -1,10 +1,12 @@
-## LABCAR
+# LABCAR
 
-1. **Descripción del Proyecto:**
+Usando los recursos de bootstrap, la api de html5 y google maps api logramos replicar una página web responsive (mobile y desktop) para el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta con dos puntos ingresados por el usuario mediante inputs y visualizarlo en un mapa.
 
-Usando los recursos de bootstrap, la api de html5 y google maps api logramos replicar una página web responsive (mobile y desktop) para el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta con dos puntos ingresados por el usuario mediante inputs y visualizarlo en un mapa, además ofrece la opcion de ubicar la posicion del usuario en el mapa.
+![Recursos](assets/images/1.png)
 
-2. **Herramientas utilizadas:**
+## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
+
+## Herramientas utilizadas
 	- HTML5
 	- CSS3
 	- JS
@@ -13,6 +15,7 @@ Usando los recursos de bootstrap, la api de html5 y google maps api logramos rep
 	- Api de HTML5 (Geolocation)
 
 ## Funcionamiento
+
 **Autocompletado de direcciones**
 
 Para el autocompletado de direcciones se uso la función de la biblioteca de Places de la Google Maps JavaScript API. Esta herramienta se uso con la finalidad de darlea la aplicación el comportamiento de escritura anticipada para simplicar el trabajo del usuario y evitar errorer de escrituras
@@ -38,10 +41,7 @@ El trazado de ruta se uso una key única dentro de un script ubicado dentro del 
 
 ![Recursos](assets/images/mobile.png)
 
-5. **Autor**
-	- Lilliam Haro
-
-6. **Fuentes de Consulta Rápida**
+## Fuentes de Consulta
  - Documentacion de Google Api [Ver.](https://developers.google.com/maps/documentation/?hl=es-419)
  - Laboratoria Lms [Ver.](https://lms.laboratoria.la/)
  - Documentacion de Bootstrap [Ver.](https://getbootstrap.com/docs/3.3/getting-started/)
