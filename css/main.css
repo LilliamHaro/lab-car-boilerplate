@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 .logo{
   width: 147px;
@@ -14,13 +15,22 @@
   border-width: 0 0 1px;
 }
 .pd-6 {
-  padding: 6px;
+  padding: 15px;
+}
+.border-radius {
+  border-radius: 4px;
+}
+.mg-top-70 {
+  margin-top: 70px;
+}
+.with-40 {
+  width: 40px;
 }
 .bg-taxi {
   height: 90vh;
-  background-image: url("../assets/images/taxi.jpg");
-  background-position: center bottom;
+  background: url('../assets/images/sin-titulo.png') no-repeat;
   background-size: cover;
+  background-position: center bottom;
   display: flex;
   align-items:center;
   justify-content:flex-end;
@@ -32,12 +42,12 @@
   height: 200px;
 }
 .yellow-box {
-  height: 40vh;
-  padding: 20px 0 0 30px;
+  /* height: 30vh; */
+  padding: 15px 0 28px 30px;
   color: #fff;
 }
 .yellow-box h2 {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .logo-blanco {
   height: 17px;
@@ -69,6 +79,9 @@
   height: 50vh;
   background-color: rgba(0, 0, 0, 0.50);
 }
+.height-50 {
+  height: 50vh;
+}
 .input {
   height: 30px;
   width: 78%;
@@ -79,7 +92,7 @@
   outline: none;
 }
 .footer {
-  background-color: #000;
+  background-color: #1b1b1b;
 }
 
 
@@ -116,12 +129,14 @@
   font-size: 20px;
 }
 .bg-gold {
-  background-color: #ffc107;
+  background-color: #F7B617;
 }
 .bg {
-  background-position:center center;
-  background-size:cover;
+  /* background-size:cover; */
   background-repeat: no-repeat;
+}
+.yellow-box hr {
+  margin-right: 35px ;
 }
 
 .none-xs {
@@ -139,17 +154,17 @@
 .none {
   display: none;
 }
+.height-50 {
+  height: 50vh;
+}
 .fl-rg {
   float: right;
 }
 .pd-md {
-  padding: 30px 55px 20px 100px;;
-}
-.yellow-box hr {
-  margin-right: 35px ;
+  padding: 15px 55px 5px 100px;;
 }
 .yellow-box {
-  height: 55vh;
+  /* height: 50vh; */
 }
 .line {
   width: 100px;
@@ -158,7 +173,7 @@
   /* posicionando sobre el hr */
   position: relative;
   top: -30px;
-  background-color: #ffc107;
+  background-color: #F7B617;
 }
 .iphone {
   height: 86vh;
@@ -174,10 +189,10 @@
 }
 .conduce {
   background-position:center;
-  height: 80vh;
+  /* height: 80vh; */
 }
 .input {
-  width: 45%;
+  width: 55%;
 }
 .map {
   height: 400px;
@@ -196,6 +211,9 @@
   height: 200px;
   background-color: #0080FF;
   border-radius: 5px;
+}
+.yellow-box hr {
+  margin-right: 0px ;
 }
 .bg-green {
   background-color: #01DFA5;

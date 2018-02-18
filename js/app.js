@@ -44,7 +44,10 @@ function initMap() {
         if (status === 'OK') {
           directionsDisplay.setDirections(result);
         } else {
-          alert('Algo ha salido mal');
+          alert('Algo ha salido mal, verifica que los puntos que ingreses sean recorribles en auto');
+          document.getElementById('originPoint').value = '';
+          document.getElementById('destinyPoint').value = '';
+
         }
       });
       directionsDisplay.setMap(map);
