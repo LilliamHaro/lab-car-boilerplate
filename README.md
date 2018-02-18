@@ -1,6 +1,6 @@
-# LABCAR
+# LAB-CAR
 
-Usando los recursos de bootstrap, la api de html5 y google maps api logramos replicar una página web responsive (mobile y desktop) para el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta con dos puntos ingresados por el usuario mediante inputs y visualizarlo en un mapa.
+Usando los recursos de bootstrap y Google Maps Api logramos desarrollar una página web responsive sobre el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta entre dos puntos ingresados mediante inputs y visualizarlo en un mapa.
 
 ![Recursos](assets/images/1.png)
 
