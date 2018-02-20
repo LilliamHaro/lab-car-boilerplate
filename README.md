@@ -1,8 +1,8 @@
 # LAB-CAR
 
-Usando los recursos de bootstrap y Google Maps Api logramos desarrollar una página web responsive sobre el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta entre dos puntos ingresados mediante inputs y visualizarlo en un mapa.
+Usando los recursos de bootstrap y Google Maps Api logramos desarrollar una página web responsive para el servicio de taxis Labcar en el cual el usuario puede realizar un trazado de ruta entre dos puntos ingresados mediante inputs y visualizarlo en un mapa.
 
-![Recursos](assets/images/1.png)
+![labcar](https://user-images.githubusercontent.com/32288575/36438557-4d1596b0-1638-11e8-83f6-9c7a88eb1217.png)
 
 ## Desarrollado para [Laboratoria](http://www.laboratoria.la/)
 
